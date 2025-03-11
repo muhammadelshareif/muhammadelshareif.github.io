@@ -132,13 +132,6 @@
   margin: 20px 60px 0 0;
 }
 
-.u-section-2 .u-icon-1 {
-  height: 40px;
-  width: 40px;
-  position: relative;
-  margin: 30px auto 30px 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
     min-height: 400px;
@@ -579,7 +572,7 @@
     padding-right: 9px;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 694px;
+  min-height: 1559px;
 }
 
 .u-section-4 .u-text-1 {
@@ -588,14 +581,15 @@
 }
 
 .u-section-4 .u-list-1 {
-  margin-top: 30px;
+  margin-top: 24px;
   margin-bottom: 60px;
+  min-height: 1356px;
 }
 
 .u-section-4 .u-repeater-1 {
   grid-auto-columns: calc(50% - 5px);
   grid-template-columns: repeat(2, calc(50% - 5px));
-  min-height: 375px;
+  min-height: 1356px;
   grid-gap: 10px;
 }
 
@@ -615,7 +609,7 @@
 }
 
 .u-section-4 .u-text-3 {
-  margin: 0 72px 0 0;
+  margin: 0 73px 0 -1px;
 }
 
 .u-section-4 .u-list-item-2 {
@@ -639,7 +633,7 @@
 }
 
 .u-section-4 .u-text-5 {
-  margin: 0 72px 0 0;
+  margin: 0 73px 0 -1px;
 }
 
 .u-section-4 .u-container-layout-3 {
@@ -658,7 +652,7 @@
 }
 
 .u-section-4 .u-text-7 {
-  margin: 0 72px 0 0;
+  margin: 0 73px 0 -1px;
 }
 
 .u-section-4 .u-container-layout-4 {
@@ -677,7 +671,7 @@
 }
 
 .u-section-4 .u-text-9 {
-  margin: 0 72px 0 0;
+  margin: 0 73px 0 -1px;
 }
 
 .u-section-4 .u-container-layout-5 {
@@ -696,24 +690,32 @@
 }
 
 .u-section-4 .u-text-11 {
-  margin: 0 72px 0 0;
+  margin: 0 73px 0 -1px;
 }
 
 .u-section-4 .u-gallery-nav-1 {
   position: absolute;
-  left: 10px;
+  left: auto;
   width: 40px;
   height: 40px;
+  top: 517px;
+  right: 10px;
 }
 
 .u-section-4 .u-gallery-nav-2 {
   position: absolute;
-  right: 10px;
   width: 40px;
   height: 40px;
+  left: auto;
+  top: 658px;
+  right: 10px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-4 .u-list-1 {
+    min-height: 952px;
+  }
+
   .u-section-4 .u-image-1 {
     inset: auto;
     height: 301px;
@@ -721,6 +723,7 @@
 
   .u-section-4 .u-text-3 {
     margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-4 .u-image-2 {
@@ -733,6 +736,7 @@
   }
 
   .u-section-4 .u-text-5 {
+    margin-left: 0;
     margin-right: 0;
   }
 
@@ -743,6 +747,7 @@
 
   .u-section-4 .u-text-7 {
     margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-4 .u-image-4 {
@@ -752,6 +757,7 @@
 
   .u-section-4 .u-text-9 {
     margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-4 .u-image-5 {
@@ -761,6 +767,7 @@
 
   .u-section-4 .u-text-11 {
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -779,7 +786,7 @@
   }
 
   .u-section-4 .u-text-4 {
-    margin-top: -597px;
+    margin-top: 21px;
   }
 
   .u-section-4 .u-image-3 {
